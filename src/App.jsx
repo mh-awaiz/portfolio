@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Technology from "./components/Technology.jsx";
-import Experience from "./components/Experience.jsx";
+// import Experience from "./components/Experience.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 
@@ -18,7 +18,7 @@ const App = () => {
           <Hero />
           <About />
           <Technology />
-          <Experience />
+          {/* <Experience /> */}
           <Project />
           <Contact />
         </div>
